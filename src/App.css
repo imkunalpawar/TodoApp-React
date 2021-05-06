@@ -1,0 +1,53 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.hero {
+  width: 100%;
+  min-height: auto;
+
+}
+
+.hero nav {
+  background: #603bbb;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: #fff;
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+}
+
+.row{
+  width: 100%;
+  margin: auto;
+}
+
+
+.todo__name{
+  font-weight: bold;
+}
+
+.card{
+padding: 12px;
+width: 50%;
+margin: auto;
+}
+
+button:hover{
+  background-color: grey;
+  color: white;
+}
+
